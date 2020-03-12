@@ -34,7 +34,7 @@ def turn(board)
   if valid_move?(board,index)
    return move(board, index)
   display_board(board)
-   else   puts "Please enter 1-9:"
-    return turn(board)
+   else puts "Please enter 1-9:"
+    return turn(board) == true 
 end
  end
