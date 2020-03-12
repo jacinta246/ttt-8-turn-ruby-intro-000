@@ -32,8 +32,5 @@ def turn(board)
   user_input=gets.chomp
   input_to_index (user_input)
   if valid_move?(argument1, argument2)
-    //do something here (valid_move? was true)
-    else
-      //do something else (valid_move? was false)
-      end
+    move(board, index)
 end
