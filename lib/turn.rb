@@ -26,3 +26,7 @@ end
 def move (the_board_array,the_index,the_players_character="X")
  the_board_array[the_index] = the_players_character
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+end
