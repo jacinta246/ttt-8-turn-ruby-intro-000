@@ -34,7 +34,7 @@ def turn(board)
   if valid_move?(board,index)
    return move(board, index)
    display_board pass in board
-   #else
-   #turn board
+   else
+    return turn board
 end
  end
